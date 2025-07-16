@@ -4,6 +4,7 @@ import { LoadingScreen } from './components/LoadingScreen.jsx'
 import { useState } from 'react'
 import NavBar from './components/NavBar.jsx'
 import MobileManu from './components/MobileManu.jsx'
+import Home from './components/sections/home.jsx'
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -16,6 +17,8 @@ function App() {
       <div className={` min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-1000" : "opacity-0"} bg-black text-gray-100 `}>
         <NavBar manuOpen={manuOpen} setManuOpen={setManuOpen} />
         <MobileManu manuOpen={manuOpen} setManuOpen={setManuOpen} />
+        
+        <Home />
       </div>
     </>
   )
