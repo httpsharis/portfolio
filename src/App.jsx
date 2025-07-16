@@ -5,6 +5,7 @@ import { useState } from 'react'
 import NavBar from './components/NavBar.jsx'
 import MobileManu from './components/MobileManu.jsx'
 import Home from './components/sections/home.jsx'
+import About from './components/sections/about.jsx'
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -19,6 +20,7 @@ function App() {
         <MobileManu manuOpen={manuOpen} setManuOpen={setManuOpen} />
         
         <Home />
+        <About />
       </div>
     </>
   )
