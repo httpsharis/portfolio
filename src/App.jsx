@@ -6,6 +6,8 @@ import NavBar from './components/NavBar.jsx'
 import MobileManu from './components/MobileManu.jsx'
 import Home from './components/sections/home.jsx'
 import About from './components/sections/about.jsx'
+import Projects from './components/sections/projects.jsx'
+import Contact from './components/sections/contact.jsx'
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -21,6 +23,8 @@ function App() {
         
         <Home />
         <About />
+        <Projects />
+        <Contact />
       </div>
     </>
   )
