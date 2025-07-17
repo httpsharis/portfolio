@@ -49,7 +49,7 @@ function Projects() {
 
                         <ProjectCard
                             title="My Personal Portfolio"
-                            description="An online shopping platform that allows users to browse, search, and filter products with ease. It includes a fully functional cart system and is designed to provide a smooth and intuitive user experience across devices."
+                            description="A personal portfolio website showcasing my projects, skills, and experiences in web development, built to reflect clean design, responsiveness, and functionality."
                             techStack={[
                                 "Reactjs",
                                 "TailwindCSS",
