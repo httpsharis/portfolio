@@ -1,12 +1,102 @@
-# React + Vite
+# haris.dev – Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive developer portfolio built with **React** and **Vite**.  
+Showcasing my skills, projects, and experience as a passionate web developer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Responsive Design:** Looks great on all devices.
+- **Animated Sections:** Smooth reveal-on-scroll animations.
+- **Project Showcase:** Easily add and manage featured projects.
+- **Contact Form:** Send messages directly via EmailJS.
+- **Modern Stack:** Built with React, Vite, and Tailwind CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Set up environment variables:**
+
+   Create a `.env` file in the root or `src` directory and add:
+   ```
+   VITE_SERVICE_ID=your_emailjs_service_id
+   VITE_TEMPLATE_ID=your_emailjs_template_id
+   VITE_PUBLIC_KEY=your_emailjs_public_key
+   ```
+
+4. **Start the development server:**
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+---
+
+## 🛠️ Customization
+
+- **Projects:**  
+  Add or edit projects in `src/components/sections/projects.jsx` using the `ProjectCard` component.
+
+- **Contact Form:**  
+  Configure your EmailJS credentials in the `.env` file and [EmailJS dashboard](https://dashboard.emailjs.com/).
+
+- **Branding:**  
+  Update the favicon and site title in `index.html`.  
+  Place your logo in the `public` folder and reference it in the `<link rel="icon" ...>` tag.
+
+---
+
+## 📦 Deployment
+
+This project is ready for deployment on [Vercel](https://vercel.com/) or [Netlify](https://netlify.com/).
+
+- **Environment Variables:**  
+  Set your EmailJS keys in the deployment platform’s environment variable settings.
+
+- **Build:**
+  ```sh
+  npm run build
+  # or
+  yarn build
+  ```
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Author
+
+**Haris**  
+[haris.dev](https://haris.dev)  
+[GitHub](https://github.com/httpsharis)
+
+---
+
+*Feel free to fork, use, and contribute!*
