@@ -48,7 +48,7 @@ function Projects() {
                         />
 
                         <ProjectCard
-                            title="E-Commerce Website"
+                            title="My Personal Portfolio"
                             description="An online shopping platform that allows users to browse, search, and filter products with ease. It includes a fully functional cart system and is designed to provide a smooth and intuitive user experience across devices."
                             techStack={[
                                 "Reactjs",
