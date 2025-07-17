@@ -33,18 +33,18 @@ function Projects() {
                         />
 
                         <ProjectCard
-                            title="E-Commerce Website"
-                            description="An online shopping platform that allows users to browse, search, and filter products with ease. It includes a fully functional cart system and is designed to provide a smooth and intuitive user experience across devices."
+                            title="FitnessClub Gym Website"
+                            description="Built a responsive fitness website that highlights brand value, builds trust, and offers flexible membership options with a seamless user experience."
                             techStack={[
                                 "Reactjs",
                                 "TailwindCSS",
-                                "React Router",
-                                "Context API",
-                                "Vercel",
+                                "JavaScript",
+                                "HTML5",
+                                "CSS",
                                 "Git & Github",
                             ]}
-                            liveUrl="https://ecommerce-fontend-design.vercel.app/"
-                            githubUrl="https://github.com/httpsharis/ecommerce-fontend-design"
+                            liveUrl="https://fitnessclub-web.vercel.app/"
+                            githubUrl="https://https://github.com/httpsharis/fitnessclub-web"
                         />
 
                         <ProjectCard
@@ -57,24 +57,10 @@ function Projects() {
                                 "Context API",
                                 "Vercel",
                                 "Git & Github",
+                                "CSS"
                             ]}
-                            liveUrl="https://ecommerce-fontend-design.vercel.app/"
-                            githubUrl="https://github.com/httpsharis/ecommerce-fontend-design"
-                        />
-
-                        <ProjectCard
-                            title="E-Commerce Website"
-                            description="An online shopping platform that allows users to browse, search, and filter products with ease. It includes a fully functional cart system and is designed to provide a smooth and intuitive user experience across devices."
-                            techStack={[
-                                "Reactjs",
-                                "TailwindCSS",
-                                "React Router",
-                                "Context API",
-                                "Vercel",
-                                "Git & Github",
-                            ]}
-                            liveUrl="https://ecommerce-fontend-design.vercel.app/"
-                            githubUrl="https://github.com/httpsharis/ecommerce-fontend-design"
+                            liveUrl="https://portfolio-eta-nine-98.vercel.app/"
+                            githubUrl="https://https://github.com/httpsharis/portfolio"
                         />
                     </div>
                 </div>
